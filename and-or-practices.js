@@ -45,7 +45,7 @@ const bodyTemperature = 98.4, isCold = true;
 if (bodyTemperature > 100 || isCold == true) {
     console.log("He will go to the doctor");
 } else {
-    console.log("He will sleep wrapped in a");
+    console.log("He will sleep wrapped in a quilt");
 }
 
 //7
