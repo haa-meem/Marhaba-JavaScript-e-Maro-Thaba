@@ -84,6 +84,7 @@ const laptop = {
         ports: ["USB Type-C", "HDMI 2.0b"]
     },
     weight: "2.2 kg",
-    operatingSystem: "Windows 11 Home"
+    operatingSystem: "Windows 11 Home",
+    price: 180000
 };
 console.log(laptop);
