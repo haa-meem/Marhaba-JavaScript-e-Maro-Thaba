@@ -62,3 +62,16 @@ function oddsAvg(numbers) {
 }
 console.log(oddsAvg([13, 15, 27, 7, 11]).toFixed(2));
 console.log(oddsAvg([3, 70, 10, 13, 14]).toFixed(2));
+
+//5
+function oddsMinusOne(numbers) {
+    const odds = [];
+    for (const number of numbers) {
+        if (number % 2 === 1) {
+            odds.push(number - 1);
+        }
+    }
+    return odds;
+}
+console.log(oddsMinusOne([1, 4, 2, 5, 8, 9, 0]));
+console.log(oddsMinusOne([13, 33, 60, 37, 13, 10]));
