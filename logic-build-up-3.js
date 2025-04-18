@@ -44,3 +44,21 @@ function oddsOrEvens(numbers) {
 console.log(oddsOrEvens([11, 13, 15, 2, 32, 96, 5]));
 console.log(oddsOrEvens([11, 13, 15, 17, 19, 21]));
 console.log(oddsOrEvens([12, 14, 16, 18, 20, 22]));
+
+//4
+function oddsAvg(numbers) {
+    let count = 0, sum = 0;
+    for (const number of numbers) {
+        if (number % 2 === 1) {
+            sum += number;
+            count += 1;
+        }
+    }
+    if (count === 0) {
+        return 0;
+    }
+    const avg = sum / count;
+    return avg;
+}
+console.log(oddsAvg([13, 15, 27, 7, 11]).toFixed(2));
+console.log(oddsAvg([3, 70, 10, 13, 14]).toFixed(2));
