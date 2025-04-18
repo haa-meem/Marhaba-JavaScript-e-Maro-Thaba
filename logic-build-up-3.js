@@ -17,3 +17,16 @@ function evensAvg(numbers) {
 }
 console.log(evensAvg([1, 4, 6, 3, 8, 9]));
 console.log(evensAvg([3, 7, 9, 13, 11]));
+
+//2
+function doubleOdds(numbers) {
+    const odds = [];
+    for (const number of numbers) {
+        if (number % 2 === 1) {
+            odds.push(2 * number);
+        }
+    }
+    return odds;
+}
+console.log(doubleOdds([1, 4, 2, 5, 7, 9, 6]));
+console.log(doubleOdds([11, 34, 6, 39, 29, 13]));
