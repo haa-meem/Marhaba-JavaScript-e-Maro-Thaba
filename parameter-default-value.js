@@ -54,3 +54,9 @@ function numDouble(nums = [5, 10, 15]) {
     return newArray;
 }
 console.log(numDouble());
+
+//9
+function simpleInterest(obj = { principal: 1000, rate: 5 }) {
+    return (obj.principal * obj.rate / 100);
+}
+console.log(simpleInterest({ principal: 100, rate: 1 }));
