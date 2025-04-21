@@ -24,3 +24,9 @@ function square(num = 1) {
     return num * num;
 }
 console.log(square());
+
+//5
+function productPrice(name = "Unknown product", price = 1) {
+    console.log(name, price);
+}
+productPrice("Chair",4000);
