@@ -18,3 +18,9 @@ function income(name = "anonymous", monthly = 0) {
     console.log(name, monthly);
 }
 income("Haa-meem", 60000);
+
+//4
+function square(num = 1) {
+    return num * num;
+}
+console.log(square());
