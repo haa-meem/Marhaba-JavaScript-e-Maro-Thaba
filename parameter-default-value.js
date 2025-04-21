@@ -6,3 +6,9 @@ function add(num1 = 0, num2 = 0, num3 = 0) {
     return result;
 }
 console.log(add());
+
+//2
+function moneyDeposit(deposit=50){
+    return deposit;
+}
+console.log(moneyDeposit(100));
