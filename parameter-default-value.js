@@ -60,3 +60,10 @@ function simpleInterest(obj = { principal: 1000, rate: 5 }) {
     return (obj.principal * obj.rate / 100);
 }
 console.log(simpleInterest({ principal: 100, rate: 1 }));
+
+//10
+function incomeTax(obj = { salary: 50000, tax: 10 }) {
+    const tax = obj.salary * obj.tax / 100;
+    return (obj.salary - tax);
+}
+console.log(incomeTax({ salary: 65000, tax: 10 }));
