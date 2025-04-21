@@ -29,10 +29,17 @@ console.log(square());
 function productPrice(name = "Unknown product", price = 1) {
     console.log(name, price);
 }
-productPrice("Chair",4000);
+productPrice("Chair", 4000);
 
 //6
-function favBooks(books=["JS book"]){
+function favBooks(books = ["JS book"]) {
     return books;
 }
 console.log(favBooks(["Sherlock Holmes"]));
+
+//7
+function totalPrice(product = { price: 10, quantity: 1 }) {
+    let total = product.price * product.quantity;
+    return total;
+}
+console.log(totalPrice({ price: 100, quantity: 2 }));
