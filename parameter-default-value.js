@@ -43,3 +43,14 @@ function totalPrice(product = { price: 10, quantity: 1 }) {
     return total;
 }
 console.log(totalPrice({ price: 100, quantity: 2 }));
+
+//8
+function numDouble(nums = [5, 10, 15]) {
+    let newArray = [];
+    for (const num of nums) {
+        console.log(num * 2);
+        newArray.push(num * 2);
+    }
+    return newArray;
+}
+console.log(numDouble());
