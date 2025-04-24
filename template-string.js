@@ -15,3 +15,7 @@ console.log(`My favorite fruit is ${fruits[2]}`);
 //4
 const a = 50, b = 10;
 console.log(`The division of a and b is ${a / b}`);
+
+//5
+const person = { firstName: "Amit", lastName: "Kumar" };
+console.log(`Full Name: ${person.firstName} ${person.lastName}`);
