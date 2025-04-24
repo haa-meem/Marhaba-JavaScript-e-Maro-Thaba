@@ -1,8 +1,8 @@
 //Page 191
 
 //1
-const a = 100, b = 20;
-console.log(`The difference between ${a} and ${b} is ${a - b}`);
+const x = 100, y = 20;
+console.log(`The difference between ${x} and ${y} is ${x - y}`);
 
 //2
 const employee = { name: "MD. ABDUL ALIM", age: 60, salary: 50000 };
@@ -11,3 +11,7 @@ console.log(`Name: ${employee.name}, Age: ${employee.age}, Salary: ${employee.sa
 //3
 const fruits = ["Apple", "Banana", "Jacfruit", "Sweet Sop", "Sapodilla", "Guava"];
 console.log(`My favorite fruit is ${fruits[2]}`);
+
+//4
+const a = 50, b = 10;
+console.log(`The division of a and b is ${a / b}`);
