@@ -23,3 +23,7 @@ console.log(`Full Name: ${person.firstName} ${person.lastName}`);
 //6
 const animals = ["Cat", "Dog", "Elephant"];
 console.log(`My favorite animals are ${animals.join(", ")}`);
+
+//7
+const student = { name: "Haa-meem Al Hamra", age: 23, results: [80, 75, 85] }
+console.log(`Name: ${student.name}, Average marks of Three Subjects: ${(student.results[0] + student.results[1] + student.results[2]) / 3}`);
