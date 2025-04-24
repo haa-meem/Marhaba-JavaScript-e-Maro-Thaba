@@ -19,3 +19,7 @@ console.log(`The division of a and b is ${a / b}`);
 //5
 const person = { firstName: "Amit", lastName: "Kumar" };
 console.log(`Full Name: ${person.firstName} ${person.lastName}`);
+
+//6
+const animals = ["Cat", "Dog", "Elephant"];
+console.log(`My favorite animals are ${animals.join(", ")}`);
