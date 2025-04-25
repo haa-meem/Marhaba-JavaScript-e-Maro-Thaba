@@ -11,3 +11,7 @@ console.log(multi(11, 13, 7));
 //3
 const arrow = () => "unknown";
 console.log(arrow());
+
+//4
+const object = (obj) => obj.money / 5;
+console.log(object({ name: "Haa-meem", money: 350 }));
