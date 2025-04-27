@@ -19,3 +19,8 @@ console.log(firstColor, secondColor);
 const numbers = [13, 7, 2001];
 const [, second,] = numbers;
 console.log(second);
+
+//5
+const digits = [2, 4, 6, 8];
+const [two, , , eight] = digits;
+console.log(two, eight);
