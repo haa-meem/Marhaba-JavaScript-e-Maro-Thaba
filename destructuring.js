@@ -9,3 +9,8 @@ console.log(brand);
 const item = { name: "Mobile", price: 20000, phone: "Samsung" };
 const { phone, price } = item;
 console.log(phone, price);
+
+//3
+const colors = ["red", "blue", "green", "yellow"];
+const [firstColor, secondColor] = colors;
+console.log(firstColor, secondColor);
