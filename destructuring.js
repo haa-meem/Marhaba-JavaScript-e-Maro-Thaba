@@ -31,3 +31,8 @@ function multiply(a, b) {
 }
 const [firstResult, secondResult] = multiply(13, 7);
 console.log(firstResult, secondResult);
+
+//7
+const person = { name2: "Rahim", city: "Dhaka" };
+const { name2, city, phone2 = "N/A" } = person;    //name and phone property is duplicate
+console.log(name2, city, phone2);
