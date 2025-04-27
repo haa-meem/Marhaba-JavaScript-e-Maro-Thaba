@@ -14,3 +14,8 @@ console.log(phone, price);
 const colors = ["red", "blue", "green", "yellow"];
 const [firstColor, secondColor] = colors;
 console.log(firstColor, secondColor);
+
+//4
+const numbers = [13, 7, 2001];
+const [, second,] = numbers;
+console.log(second);
