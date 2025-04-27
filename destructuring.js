@@ -24,3 +24,10 @@ console.log(second);
 const digits = [2, 4, 6, 8];
 const [two, , , eight] = digits;
 console.log(two, eight);
+
+//6
+function multiply(a, b) {
+    return [a * 3, b * 3];
+}
+const [firstResult, secondResult] = multiply(13, 7);
+console.log(firstResult, secondResult);
