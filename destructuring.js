@@ -36,3 +36,8 @@ console.log(firstResult, secondResult);
 const person = { name2: "Rahim", city: "Dhaka" };
 const { name2, city, phone2 = "N/A" } = person;    //name and phone property is duplicate
 console.log(name2, city, phone2);
+
+//8
+const teacher = { name3: "Maria", profession: "Teacher" };
+const { name3, profession: job } = teacher;    //name property is duplicate
+console.log(name3, job);
