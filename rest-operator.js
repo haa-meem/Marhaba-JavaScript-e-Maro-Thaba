@@ -18,3 +18,13 @@ console.log(more);
 //4
 const [first, second, ...rest] = [10, 20, 3, 30, 300, 3000];
 console.log(rest);
+
+//5
+function add(a, b, ...nums) {
+    let sum = 0
+    for (const num of nums) {
+        sum += num;
+    }
+    return sum;
+}
+console.log(add(13, 7, 2001, 11));
