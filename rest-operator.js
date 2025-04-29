@@ -28,3 +28,13 @@ function add(a, b, ...nums) {
     return sum;
 }
 console.log(add(13, 7, 2001, 11));
+
+//6
+function avg(...nums) {
+    let sum = 0
+    for (const num of nums) {
+        sum += num;
+    }
+    return sum / nums.length;
+}
+console.log(avg(13, 17, 15, 14, 7));
