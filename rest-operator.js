@@ -14,3 +14,7 @@ console.log(others);
 const programmer = { name: "Sophia", language: "JavaScript", experience: 5, specialty: "Frontend", tools: "React" };
 const { language, specialty, ...more } = programmer;
 console.log(more);
+
+//4
+const [first, second, ...rest] = [10, 20, 3, 30, 300, 3000];
+console.log(rest);
