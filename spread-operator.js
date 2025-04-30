@@ -10,3 +10,8 @@ console.log(technologies);
 const fruits = ["Apple", "Banana", "Mango"];
 const allFruits = [...fruits, "papaya", "orange"];
 console.log(allFruits);
+
+//3
+const frontEnd = ["JavaScript"], backEnd = ["Node.js"], database = ["MongoDB"];
+const fullStack = [...frontEnd, ...backEnd, ...database];
+console.log(fullStack);
