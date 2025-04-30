@@ -25,3 +25,8 @@ console.log(updatedWeb);
 const young = { name: "Arif", age: 30, country: "B Baria" };
 const { country, ...newObj } = young;
 console.log(newObj);
+
+//6
+const car = { make: "Toyota", model: "Corolla", year: 2020 };
+const updatedInfo = { ...car, year: 2032, };
+console.log(updatedInfo);
