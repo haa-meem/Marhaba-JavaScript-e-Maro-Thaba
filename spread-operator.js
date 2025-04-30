@@ -15,3 +15,8 @@ console.log(allFruits);
 const frontEnd = ["JavaScript"], backEnd = ["Node.js"], database = ["MongoDB"];
 const fullStack = [...frontEnd, ...backEnd, ...database];
 console.log(fullStack);
+
+//4
+const website = { name: "MySite", type: "e-commerce", status: "active" };
+const updatedWeb = { ...website, theme: "dark" };
+console.log(updatedWeb);
