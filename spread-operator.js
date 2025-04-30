@@ -20,3 +20,8 @@ console.log(fullStack);
 const website = { name: "MySite", type: "e-commerce", status: "active" };
 const updatedWeb = { ...website, theme: "dark" };
 console.log(updatedWeb);
+
+//5
+const young = { name: "Arif", age: 30, country: "B Baria" };
+const { country, ...newObj } = young;
+console.log(newObj);
