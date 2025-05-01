@@ -14,3 +14,8 @@ console.log(players);
 const number = [10, 15, 20, 25, 30, 35];
 const upperTwenty = number.find(num => num > 20);
 console.log(upperTwenty);
+
+//5
+const numbers = [7, 10, 15, 20, 25, 30];
+const dividedByThree = numbers.map(num => num / 3);
+console.log(dividedByThree);
