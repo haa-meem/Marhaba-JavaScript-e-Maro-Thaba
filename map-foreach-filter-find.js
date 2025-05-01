@@ -24,3 +24,8 @@ console.log(taller);
 const numbers = [7, 10, 15, 20, 25, 30];
 const dividedByThree = numbers.map(num => num / 3);
 console.log(dividedByThree);
+
+//6
+const friends = ["Leonardo", "Brad Pitt", "Kate Winslet", "Audrey Hepburn", "Johnny Depp"];
+const thirdLetter = friends.map(friend => friend[2]);
+console.log(thirdLetter);
