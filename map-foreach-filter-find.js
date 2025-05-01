@@ -38,3 +38,6 @@ console.log(findH);
 //8
 const nums = [1, 2, 3, 4, 5];
 const eachNumber = nums.forEach(num => console.log(num));
+
+//9
+const animals = ['cow', 'goat', 'sheep', 'horse'].forEach(animal => console.log(animal));
