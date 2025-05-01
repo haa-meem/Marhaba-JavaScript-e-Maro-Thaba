@@ -29,3 +29,8 @@ console.log(dividedByThree);
 const friends = ["Leonardo", "Brad Pitt", "Kate Winslet", "Audrey Hepburn", "Johnny Depp"];
 const thirdLetter = friends.map(friend => friend[2]);
 console.log(thirdLetter);
+
+//7
+const array = ['Tom', 'Harry', 'Sam', 'Jack'];
+const findH = array.find(arr => arr[0] === 'H');
+console.log(findH);
