@@ -9,3 +9,8 @@ console.log(incPrice);
 const legendPlayers = ["Messi", "Maradona", "Pele", "Zidane", "Ronaldo"];
 const players = legendPlayers.filter(player => player.length > 5);
 console.log(players);
+
+//3
+const number = [10, 15, 20, 25, 30, 35];
+const upperTwenty = number.find(num => num > 20);
+console.log(upperTwenty);
