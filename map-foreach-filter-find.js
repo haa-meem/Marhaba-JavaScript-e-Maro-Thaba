@@ -34,3 +34,7 @@ console.log(thirdLetter);
 const array = ['Tom', 'Harry', 'Sam', 'Jack'];
 const findH = array.find(arr => arr[0] === 'H');
 console.log(findH);
+
+//8
+const nums = [1, 2, 3, 4, 5];
+const eachNumber = nums.forEach(num => console.log(num));
