@@ -13,3 +13,8 @@ console.log(dividedByFive);
 const words = ["hola", "arigato", "hello"];
 const equalHello = words.some(word => word === "hello");
 console.log(equalHello);
+
+//4
+const ages = [23, 20, 21, 55, 15];
+const adult = ages.every(age => age > 18);
+console.log(adult);
