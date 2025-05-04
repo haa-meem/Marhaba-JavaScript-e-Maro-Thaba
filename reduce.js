@@ -9,3 +9,8 @@ console.log(sum);
 const products = [{ name: 'shampoo', price: 100 }, { name: 'soap', price: 50 }, { name: 'ttothpaste', price: 75 }];
 const totalPrice = products.reduce((accumulator, current) => accumulator + current.price, 0);
 console.log(totalPrice);
+
+//3
+const productList = [{ name: 'Pen', price: 5 }, { name: 'Book', price: 50 }, { name: 'Bag', price: 100 }];
+const total = productList.reduce((accumulator, current) => accumulator + current.price, 0);
+console.log(total);
