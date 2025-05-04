@@ -19,6 +19,11 @@ console.log(total);
 const multiplication = [1, 2, 3, 4, 5].reduce((accumulator, current) => accumulator * current, 1);
 console.log(multiplication);
 
+//5
+const numbers = [10, 20, 30, 40, 50];
+const max = numbers.reduce((accumulator, current) => current > accumulator ? current : accumulator, numbers[0]);
+console.log(max);
+
 //6
 const add = [100, 200, 300, 400].reduce((accumulator, current) => accumulator + current, 50);
 console.log(add);
