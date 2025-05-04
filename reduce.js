@@ -18,3 +18,7 @@ console.log(total);
 //4
 const multiplication = [1, 2, 3, 4, 5].reduce((accumulator, current) => accumulator * current, 1);
 console.log(multiplication);
+
+//6
+const add = [100, 200, 300, 400].reduce((accumulator, current) => accumulator + current, 50);
+console.log(add);
