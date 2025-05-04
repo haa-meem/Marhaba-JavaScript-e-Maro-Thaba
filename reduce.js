@@ -14,3 +14,7 @@ console.log(totalPrice);
 const productList = [{ name: 'Pen', price: 5 }, { name: 'Book', price: 50 }, { name: 'Bag', price: 100 }];
 const total = productList.reduce((accumulator, current) => accumulator + current.price, 0);
 console.log(total);
+
+//4
+const multiplication = [1, 2, 3, 4, 5].reduce((accumulator, current) => accumulator * current, 1);
+console.log(multiplication);
