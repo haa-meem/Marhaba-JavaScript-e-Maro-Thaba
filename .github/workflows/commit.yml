@@ -1,11 +1,7 @@
 name: Automatic Commit
 on:
   schedule:
-<<<<<<< HEAD
-    - cron: '40 6 * * *'
-=======
-    - cron: '44 6 * * *'
->>>>>>> a809f8190658bbb58f04ada0501718543b00f679
+    - cron: '55 6 * * *'
 jobs:
   commit:
     runs-on: ubuntu-latest
