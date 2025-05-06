@@ -1,15 +1,40 @@
 name: Automatic Commit
 on:
   schedule:
-    - cron: '55 6 * * *'
+    - cron: '30 7 * * *'
+    - cron: '45 7 * * *'
+    - cron: '0 8 * * *'
+
 jobs:
-  commit:
+  commit_1:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - run: |
           git config user.name "haa-meem"
           git config user.email "haameemalhamra@gmail.com"
-          git add -p sort.js -e "7-11"
-          git commit -m "Automatic commit of sort.js"
+          git add -p reverse.js -e "1-6"
+          git commit -m "Automatic commit of lines 1-6 in sort.js"
+          git push
+
+  commit_2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          git config user.name "haa-meem"
+          git config user.email "haameemalhamra@gmail.com"
+          git add -p reverse.js -e "7-11"
+          git commit -m "Automatic commit of lines 7-11 in sort.js"
+          git push
+
+  commit_3:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          git config user.name "haa-meem"
+          git config user.email "haameemalhamra@gmail.com"
+          git add -p reverse.js -e "13-16"
+          git commit -m "Automatic commit of lines 13-16 in sort.js"
           git push
