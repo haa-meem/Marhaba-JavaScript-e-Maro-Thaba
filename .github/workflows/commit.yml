@@ -1,7 +1,7 @@
 name: Automatic Commit
 on:
   schedule:
-    - cron: '35 6 * * *'
+    - cron: '40 6 * * *'
 jobs:
   commit:
     runs-on: ubuntu-latest
@@ -10,6 +10,6 @@ jobs:
       - run: |
           git config user.name "haa-meem"
           git config user.email "haameemalhamra@gmail.com"
-          git add sort.js
+          git add -p sort.js -e "7-11"
           git commit -m "Automatic commit of sort.js"
           git push
