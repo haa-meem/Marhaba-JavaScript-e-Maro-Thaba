@@ -12,3 +12,8 @@ console.log(cars.slice(0, 2));
 const movieList = ["Inception", "Titanic", "Joker", "Avatar", "Interstellar"];
 console.log(movieList.splice(2, 1, "Batman", "Superman"));
 console.log(movieList);
+
+//4
+const players = ["Messi", "Ronaldo", "Neymar", "Mbappe"];
+console.log(players.splice(2, 1, "Halland"));
+console.log(players);
