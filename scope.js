@@ -8,16 +8,16 @@ function tax(income) {
 console.log(tax(50000));
 
 //2
-// function secret() {
-//   let insideSecret = "internal secret hiding place";
-// }
-// console.log(insideSecret);
+function secret() {
+  let insideSecret = "internal secret hiding place";
+}
+console.log(insideSecret);
 
 //3
-// if (true) {
-//   let temparature;
-// }
-// console.log(temparature);
+if (true) {
+  let temparature;
+}
+console.log(temparature);
 
 //4
 function schoolDetails() {
