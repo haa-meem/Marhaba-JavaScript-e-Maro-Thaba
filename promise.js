@@ -34,3 +34,24 @@ payment
   .catch((error) => {
     console.log(error);
   });
+
+//3
+const sendEmail = (email) => {
+  validEmail = ["haameemalhamra@gmail.com", "alhamrahaameem@gmail.com"];
+  const checkPromise = new Promise((resolve, reject) => {
+    if (validEmail.includes(email)) {
+      resolve(true);
+    } else {
+      reject(false);
+    }
+  });
+  checkPromise
+    .then((avaiable) => {
+      console.log("Avaiable");
+    })
+    .catch((error) => {
+      console.log("Not available");
+    });
+};
+
+sendEmail("haameemalhamra");
